@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+/* _________________Table___________________ */
+.hold-breadcrumb .container .row .col-sm-9 .content .daftar_anggota {
+  max-width: 900px;
+  background-color: #efefef33;
+  padding: 10px;
+  overflow: auto;
+  margin: auto;
+  border-radius: 2px;
+}
+
+table {
+  width: 100%;
+  font-size: 16px;
+  color: #444;
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+
+/* table > tbody > tr{
+  background-color: grey;
+  color: whitesmoke;
+} */
+
+/* table > thead th {
+  padding: 8px;
+} */
+
+/* table > tbody td {
+  text-align: center;
+} */
+
+/* table th,
+table td {
+  border: 1px solid rgb(24, 23, 23);
+} */
+
+table > tbody > tr > td span > img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 2px 6px #0003;
+}
+
+table > tbody > td {
+  background-color: whitesmoke;
+  transition: 0.3s ease-in-out;
+}
+
+table > tbody > tr > td span > img:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+table > tbody > tr > td span > img:hover {
+  filter: drop-shadow(0 2px 6px #0002);
+}
+
+/* __________________________________________________________ */
